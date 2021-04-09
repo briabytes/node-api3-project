@@ -1,6 +1,5 @@
-// require your server and launch it
 const server = require('./api/server');
 
-server.listen(8888, () => {
-    console.log('Server is running on port 8888');
-})
+server.listen(8882, () => {
+    console.log('Server is running on port 8882');
+});
